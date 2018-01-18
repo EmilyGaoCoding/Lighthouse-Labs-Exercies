@@ -15,8 +15,6 @@ map(words, function(word) {
 
 function map(input, callback) {
   var output = [];
-  input.forEach(function(i) {
-    output.push(callback(i));
-  })
+  input.forEach(i => output.push(callback(i)))
   console.log(output);
 }
