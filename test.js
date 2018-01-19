@@ -1,4 +1,4 @@
-function time() {
+∏function time() {
   console.log(typeof arguments);
   var array = [];
   for (var i = 0; i < arguments.length; i++) {
